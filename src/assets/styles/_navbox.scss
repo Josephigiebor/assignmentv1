@@ -1,0 +1,63 @@
+.navbox {
+  //  background-color: red;
+
+    width: 18rem;
+    height: fit-content;
+
+    position: absolute;
+    top: 30%;
+    right: 5%;
+ font-family: serif;
+
+    text-transform: capitalize;
+    font-size: 1.2rem;
+
+    &__button {
+        background: none;
+        border: none;
+        font-size: 1.25rem;
+
+        color: green;
+        display: inline-block;
+   font-weight: 550;
+        &:hover {
+            color : whitesmoke
+        }
+    }
+
+     &__unorderList {
+        list-style: none;
+        padding: 0rem  2rem .5rem 2.2rem;
+        width: 100%;
+        border: 1px solid grey;
+
+     }
+
+     &__header {
+        padding: 0rem  2rem 0rem 2rem;
+        width: 100%;
+        color: green;
+     }
+
+   // color: green;
+
+   &__list {
+      padding: .4rem;
+      border-bottom: 1px solid grey;
+      font-weight: 550;
+      color: green;
+      &:last-child {
+        border-bottom: none;
+        padding: .4rem .1rem .4rem .1rem;
+    }
+
+
+
+
+   }
+
+
+
+
+}
+
